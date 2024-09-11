@@ -1,0 +1,30 @@
+*{
+    background-color: rgb(247, 251, 251);
+}
+
+.titulo {
+    color: rgb(33, 62, 99);
+    font-family: yeseva one, sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+.cabecario:hover{
+    color: rgb(123, 237, 255);
+
+}
+
+.texto {
+    color: black;
+    font-family: zilla slab, sans-serif;
+    font-size: 30px;
+}
+
+.cabecario {
+    color: black;
+    font-family: zilla slab, sans-serif;
+    font-size: 30px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
