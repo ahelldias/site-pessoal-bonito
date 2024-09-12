@@ -1,30 +1,54 @@
 *{
-    background-color: rgb(247, 251, 251);
+    background-color:  #f6f5fa;
+    margin: 0;
 }
 
 .titulo {
-    color: rgb(33, 62, 99);
-    font-family: yeseva one, sans-serif;
+    color: #223153;
+    font-family: montserrat, sans-serif;
     font-size: 50px;
+    font-weight: 500;
     text-align: center;
 }
 
-.cabecario:hover{
-    color: rgb(123, 237, 255);
-
-}
-
 .texto {
-    color: black;
-    font-family: zilla slab, sans-serif;
-    font-size: 30px;
+    color: #2f4256;
+    font-family: comfortaa, sans-serif;
+    font-size: 17px;
+    text-align: center;
 }
 
-.cabecario {
-    color: black;
-    font-family: zilla slab, sans-serif;
-    font-size: 30px;
-    justify-content: space-between;
+.head:hover{
+    color: #3a7edb;
+
+}
+
+.head {
+    background-color: #223153;
+    color: #f6f5fa;
+    font-family: comfortaa, sans-serif;
+    font-size: 25px;
+}
+
+.img {
+    width: 300px;
+    height: auto;
+    border-radius: 45%;
+    padding: 40px;
+ 
+}
+
+.center{
+    text-align: center;
+}
+
+nav  {
+    background-color: #223153;;
     display: flex;
-    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+ul {
+    list-style: none;
 }
